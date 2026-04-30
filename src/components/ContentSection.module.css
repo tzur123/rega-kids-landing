@@ -61,8 +61,8 @@
   margin: -54px auto 18px;
   color: #00f1ff;
   box-shadow: 0 10px 24px rgba(0,0,0,0.45);
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .cardTitle { font-size: 23px; font-weight: 700; color: var(--text); margin-bottom: 10px; }

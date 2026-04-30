@@ -3,8 +3,8 @@
   bottom: 0; inset-inline: 0;
   z-index: 800;
   background: rgba(0, 0, 0, 0.62);
-  backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   border-top: 1px solid rgba(0,241,255,0.12);
   padding: 14px 32px;
   display: flex;
