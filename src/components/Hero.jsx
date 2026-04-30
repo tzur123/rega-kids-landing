@@ -55,8 +55,11 @@ export default function Hero({ onRegister }) {
           </div>
 
           <p className={styles.sub}>
-            סרטים, סדרות, מפגשי לייב, חדרי צ'אט ועוד –<br />
-            תוכן ילדים פרימיום ב-50 ₪ בחודש
+            <span className={styles.subLine}>סרטים, סדרות, מפגשי לייב, פורומים, צ'אט ועוד!</span>
+            <span className={styles.subLine}>
+              <span className={styles.subLinePart}>תוכן ילדים פרימיום</span>
+              <span className={styles.subLinePart}>עכשיו רק ב-<span className={styles.subPrice}>50 ₪</span> בחודש</span>
+            </span>
           </p>
 
           {/* Countdown */}

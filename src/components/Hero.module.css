@@ -94,6 +94,21 @@
   margin-bottom: 32px;
 }
 
+.subLine {
+  display: block;
+}
+
+.subLinePart {
+  display: block;
+}
+
+.subPrice {
+  font-size: 1.45em;
+  font-weight: 900;
+  color: #00f1ff;
+  text-shadow: 0 0 18px rgba(0,241,255,0.45);
+}
+
 /* Countdown */
 .countdownWrap { margin-bottom: 32px; width: 100%; }
 .countdownLabel {
@@ -192,7 +207,13 @@
     line-height: 1.0;
     margin-bottom: 14px;
   }
-  .sub { font-size: 20px; }
+  .sub {
+    font-size: 17px; /* ~15% smaller for mobile */
+    line-height: 1.28;
+  }
+  .subLine { line-height: 1.28; }
+  .subLinePart { line-height: 1.2; }
+  .subLinePart + .subLinePart { margin-top: 2px; }
   .countdownLabel { font-size: 17px; }
 }
 
