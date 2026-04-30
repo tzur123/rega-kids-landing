@@ -37,11 +37,11 @@ export default function Footer({ onRegister }) {
         <div className={styles.bottom}>
           <p className={styles.copy}>© 2026 רגע TV. כל הזכויות שמורות.</p>
           <div className={styles.links}>
-            <a href="#">תנאי שימוש</a>
+            <a href="/terms.html">תנאי שימוש</a>
             <span>·</span>
-            <a href="#">מדיניות פרטיות</a>
+            <a href="/privacy.html">מדיניות פרטיות</a>
             <span>·</span>
-            <a href="mailto:support@rega.org.il">יצרו קשר</a>
+            <a href="/contact.html">יצירת קשר</a>
           </div>
         </div>
       </div>

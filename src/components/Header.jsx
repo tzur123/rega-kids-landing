@@ -35,7 +35,13 @@ export default function Header({ onRegister }) {
         </nav>
 
         <div className={styles.actions}>
-          <button className="btn-primary" onClick={onRegister}>
+          <a
+            href="https://rega.org.il/subscriber/login?redirect=/"
+            className={styles.loginBtn}
+          >
+            כניסה
+          </a>
+          <button className={`btn-primary ${styles.registerBtn}`} onClick={onRegister}>
             הצטרפו חינם
           </button>
           <button

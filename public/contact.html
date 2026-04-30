@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>יצירת קשר | רגע קידס</title>
+  <style>
+    @font-face { font-family: Ploni; src: url('/fonts/ploni-regular-aaa.woff2') format('woff2'); font-weight: 400; }
+    @font-face { font-family: Ploni; src: url('/fonts/ploni-bold-aaa.woff2') format('woff2'); font-weight: 700; }
+    body {
+      margin: 0;
+      font-family: Ploni, Arial, sans-serif;
+      background: radial-gradient(circle at top, rgba(0,241,255,.12), transparent 45%), #000;
+      color: #eaf2f8;
+      line-height: 1.7;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 36px 18px 60px; }
+    .top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 24px; }
+    .title { font-size: 34px; font-weight: 700; margin: 0; }
+    .back {
+      background: rgba(0,241,255,.14);
+      border: 1px solid rgba(0,241,255,.35);
+      color: #00f1ff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .card {
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    p, li { font-size: 19px; color: #d4dbe3; }
+    ul { margin: 0; padding-right: 20px; }
+    .contactLink {
+      color: #00f1ff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .contactLink:hover { text-decoration: underline; }
+    @media (max-width: 600px) {
+      .title { font-size: 38px; }
+      p, li { font-size: 21px; }
+      .back { font-size: 20px; padding: 12px 18px; }
+      .top { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <h1 class="title">יצירת קשר</h1>
+      <a class="back" href="/">חזרה לדף הבית</a>
+    </div>
+    <div class="card">
+      <p>אנחנו כאן לכל שאלה, תמיכה או בקשה.</p>
+      <ul>
+        <li>דוא"ל תמיכה: <a class="contactLink" href="mailto:support@rega.org.il">support@rega.org.il</a></li>
+        <li>מענה לפניות בימים א׳–ה׳ בין 09:00–18:00</li>
+        <li>נא לציין שם משתמש ומספר טלפון לחזרה מהירה</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
